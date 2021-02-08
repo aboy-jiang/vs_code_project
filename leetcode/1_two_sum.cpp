@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-01-19
- * @brief https://leetcode.com/problems/two-sum/
+ * @brief https://leetcode-cn.com/problems/two-sum/
  * 
  * 解决思路：
  * 将数组中的数值（value）和位置角标（index）对调存储在map中。

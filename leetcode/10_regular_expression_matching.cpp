@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-02-07
- * @brief https://leetcode.com/problems/regular-expression-matching/
+ * @brief https://leetcode-cn.com/problems/regular-expression-matching/
  * 
  * 解决思路：
  * 正则表达式基础："."任意一个字符，"x*"多个x字符
@@ -41,7 +41,7 @@ public:
                     if (matches(i, j)) { 
                         dp[i][j] = dp[i-1][j-1];
                     } else {
-                        dp[i][j] = false;
+                        dp[i][j] = false; 
                     }
                 } else { // 如果p中第j个字符为*
                     if (dp[i][j-2] == true) { 

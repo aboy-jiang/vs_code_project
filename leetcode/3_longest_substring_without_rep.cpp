@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-01-21
- * @brief https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ * @brief https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  * 
  * 解决思路：
  * 字符串中字符（value）和存储位置（index）对调存储在map中
@@ -11,7 +11,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <string.h>
-using namespace std;
+using namespace std; 
 
 class Solution {
 public:

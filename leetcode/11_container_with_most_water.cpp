@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-02-08
- * @brief https://leetcode.com/problems/container-with-most-water/
+ * @brief https://leetcode-cn.com/problems/container-with-most-water/
  * 
  * 解决思路：双指针 area = (j-i) * min(height[i], height[j]) 面积 = 底面积 x 高（较小的）
  */
@@ -18,7 +18,6 @@ public:
             area = (j-i) * min(height[i], height[j]);
             result = max(result, area);
 
-            cout << area << " " << i << " " << j << endl;
             if(height[i] < height[j]) {
                 i++;
             } else {

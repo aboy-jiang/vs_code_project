@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-02-05
- * @brief https://leetcode.com/problems/reverse-integer/
+ * @brief https://leetcode-cn.com/problems/reverse-integer/
  * 
  * 解决思路：
  * pow函数控制边界
@@ -12,7 +12,7 @@
 #include <math.h>
 using namespace std;
 
-class Solution {
+class Solution { 
 public:
     int reverse(int x) {
         int result = 0, i;

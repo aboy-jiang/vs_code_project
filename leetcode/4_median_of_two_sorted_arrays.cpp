@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-01-22
- * @brief https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * @brief https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
  * 
  * 解决思路：
  * 归并排序，取中位数

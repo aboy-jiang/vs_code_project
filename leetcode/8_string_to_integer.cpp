@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-02-05
- * @brief https://leetcode.com/problems/string-to-integer-atoi/
+ * @brief https://leetcode-cn.com/problems/string-to-integer-atoi/
  * 
  * 
  */

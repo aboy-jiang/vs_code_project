@@ -1,7 +1,7 @@
 /**
  * @author JZC (aboy.jiang@aliyun.com)
  * @date 2021-01-26
- * @brief https://leetcode.com/problems/longest-palindromic-substring/
+ * @brief https://leetcode-cn.com/problems/longest-palindromic-substring/
  * 
  * 解决思路：
  * 该问题提复合动态规划问题条件：1）原问题的解里面包含子问题的解；2）子问题的解多次用到。
