@@ -1,0 +1,46 @@
+/**
+ * @author JZC (aboy.jiang@aliyun.com)
+ * @date 2021-02-23
+ * @brief leetcode 数据结构
+ */
+
+#ifndef _STRUCTURE
+#define _STRUCTURE
+
+#include <iostream>
+#include <vector> 
+using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+ListNode* create_list(vector<int> arr) {
+    ListNode *list = nullptr, *p;
+    for (auto &&i : arr) {
+        ListNode *node = new ListNode(i);
+        if(list == nullptr) {
+            list = node;
+            p = node;
+        } else {
+            p->next = node;
+            p = node;
+        }
+    }
+    
+    return list;
+}
+
+void print_list(ListNode *p) {
+    while (p != nullptr) {
+        cout << p->val << ' ';
+        p = p->next;
+    }
+    cout << endl;
+}
+
+#endif  // _STRUCTURE

@@ -68,7 +68,9 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "unordered_map": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "stack": "cpp",
+        "structure": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
