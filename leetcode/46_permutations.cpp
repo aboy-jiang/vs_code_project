@@ -4,10 +4,10 @@
  * @brief https://leetcode-cn.com/problems/permutations/
  * 
  * 解决思路：动态规划
- * dp[0] = [nums[0]]，dp长度为1
- * dp[1] = 将nums[1]插入dp[0]，dp长度为2
- * dp[2] = 将nums[2]插入dp[1]，dp长度为3
- * dp[n-1] = 将nums[n-1]插入dp[n-2]，dp长度为n
+ * nums = [1, 2, 3]
+ * dp[0] = [1]
+ * dp[1] = 将2插入dp[0]，dp为[[2, 1], [1, 2]]
+ * dp[2] = 将3插入dp[1]，dp为[[3, 2, 1], [2, 3, 1], [2, 1, 3], [3, 1, 2], [1, 3, 2], [1, 2, 3]]
  */
 
 #include <iostream>
